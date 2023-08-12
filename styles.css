@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
 .top_card {
     display: flex;
     flex-direction: column; 
@@ -11,7 +15,11 @@
     color: white;
 }
 
-.header {
+h1 {
+    font-family: Roboto;
+}
+
+.header {   
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -85,10 +93,62 @@ h1{
     background-color: #E5E7EB;
 }
 
+.quote_card h1 {
+    font-style: italic;
+}
+
 .quote_card h2 {
     text-align: right;
 }
 
 .signup_card {
-    
+    padding: 100px 350px;
+}
+
+.popup {
+    background-color: #3882F6;
+    width: 1000px;
+    display: flex;   
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    color: white;
+    padding: 50px 70px;
+    border-radius: 20px;
+}
+
+.left_pop {
+    flex: 1;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+
+.right_pop {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: #3882F6;
+}
+
+.right_pop button {
+    border: solid white 2px;
+    border-radius: 20px;
+}
+
+.footer {
+    padding: 50px 350px;
+    text-align: center;
+    background-color: hsl(215, 28%, 17%);
+    color: white;
 }
