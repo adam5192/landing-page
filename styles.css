@@ -67,6 +67,7 @@ h1{
 }
 
 .images {
+    padding-top: 50px;
     display: flex;
     gap: 20px;   
 }
